@@ -7,11 +7,7 @@
 
 
 int main() {
-    unsigned int n;
-    printf("Enter the value of n for Sieve of Eratosthenes: ");
-    scanf("%u", &n);
 
-    sieveOfEratosthenes(n);
 
     uint32_t dividend, divisor;
     uint32_t quotient, remainder;
