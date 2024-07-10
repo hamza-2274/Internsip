@@ -1,25 +1,15 @@
-#include <stdio.h>
-#include <stdlib.h>
-#include <stdbool.h>
-#include <stdint.h>
-
-
-
-
 int main() {
+    int dividend, divisor;
+    printf("rnter dividend: ");
+    scanf("%d", &dividend);
+    printf("enter divisor: ");
+    scanf("%d", &divisor);
 
-
-    uint32_t dividend, divisor;
-    uint32_t quotient, remainder;
-
-    printf("Enter dividend: ");
-    scanf("%u", &dividend);
-    printf("Enter divisor: ");
-    scanf("%u", &divisor);
-
+    int quotient, remainder;
     divide(dividend, divisor, &quotient, &remainder);
 
-    printf("Quotient: %u, Remainder: %u\n", quotient, remainder);
+    printf("Quotient: %d\n", quotient);
+    printf("Remainder: %d\n", remainder);
 
     return 0;
 }
