@@ -1,3 +1,5 @@
+#include <stdio.h>
+#include <stdint.h>
 int main() {
     int dividend, divisor;
     printf("rnter dividend: ");
